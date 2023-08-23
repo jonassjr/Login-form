@@ -1,8 +1,16 @@
-# React + Vite
+# Login Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Página web para efetuar login de usuários
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+- [Tailwind](https://tailwindcss.com) - Para Estilização
+- [React](https://reactjs.org/) - Biblioteca JS
+- [Vite](https://vitejs.dev) - Ferramenta de Desenvolvimento
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
+- Login de usuários: permite que os usuários se conectem com suas contas, inserindo seu endereço de e-mail e senha.
+
+#
+![preview.img](./public/preview.png)
+
+[Live Site](https://gilded-torrone-828a5d.netlify.app/)
