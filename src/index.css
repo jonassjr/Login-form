@@ -16,7 +16,4 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.glassmorphism {
-  background-color: hsla(249, 17%, 92%, .6);
-  backdrop-filter: blur(4px);
-}
+
