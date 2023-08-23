@@ -35,7 +35,7 @@ const Form = () => {
             required
             placeholder="example@email.com"
             className="h-[60px] px-4 border-2 rounded-md border-text-color
-          bg-glass min-[1024px]:bg-white outline-none transition-all ease-in-out duration-500 focus:border-first-color"
+          bg-input-color min-[1024px]:bg-white outline-none transition-all ease-in-out duration-500 focus:border-first-color"
           />
         </div>
 
@@ -51,7 +51,7 @@ const Form = () => {
             id="Password"
             name="Password"
             required
-            className="h-[60px] px-4 border-2 rounded-md border-text-color bg-glass
+            className="h-[60px] px-4 border-2 rounded-md border-text-color bg-input-color
             min-[1024px]:bg-white outline-none transition-all ease-in-out duration-500 focus:border-first-color"
           />
 
@@ -94,7 +94,7 @@ const Form = () => {
         <a
           href="#"
           className="h-[60px]
-          rounded-md shadow-md transition-all ease-in-out duration-500 bg-glass
+          rounded-md shadow-md transition-all ease-in-out duration-500 bg-input-color
           min-[1024px]:bg-white text-text-color border-2 border-text-color 
           text-sm font-medium flex justify-center items-center gap-x-2 hover:scale-105"
         >

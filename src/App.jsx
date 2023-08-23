@@ -11,7 +11,7 @@ function App() {
           className="w-full h-full object-cover absolute"
         />
         <article
-          className="glassmorphism w-[350px] h-[400px] rounded-3xl 
+          className="bg-glass backdrop-blur-sm w-[350px] h-[400px] rounded-3xl 
           px-10 py-8 flex flex-col justify-center gap-y-8 border-2 
           border-white border-opacity-40"
         >
@@ -25,7 +25,7 @@ function App() {
         </article>
       </div>
 
-      <div className="min-h-screen flex justify-center items-center">
+      <div className="min-h-screen relative flex justify-center items-center">
         <img
           src={bgImage}
           alt="backgroud image"
@@ -33,14 +33,13 @@ function App() {
         />
 
         <div
-          className="glassmorphism w-full min-[768px]:w-[520px] min-[768px]:h-[730px]
-         h-screen absolute z-10 min-[768px]:rounded-3xl min-[768px]:border 
-         min-[768px]:border-opacity-40 border-white min-[1024px]:hidden"
-        />
-
-        <div
-          className="flex flex-col gap-y-8 min-h-screen w-full justify-center relative z-20
-           items-center "
+          className="max-[1023px]:bg-glass max-[1023px]:backdrop-blur-sm 
+          w-full min-[768px]:w-[520px] min-[768px]:h-[730px]
+          min-[1024px]:w-full min-[1024px]:h-full
+          relative z-10 min-[768px]:rounded-3xl min-[768px]:border  
+          min-[768px]:border-opacity-40 border-white
+          flex flex-col gap-y-8 h-screen min-[768px]:my-10 min-[1024px]:my-2 justify-center 
+          items-center "
         >
           <Header />
 
