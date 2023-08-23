@@ -38,8 +38,8 @@ function App() {
           min-[1024px]:w-full min-[1024px]:h-full
           relative z-10 min-[768px]:rounded-3xl min-[768px]:border  
           min-[768px]:border-opacity-40 border-white
-          flex flex-col gap-y-8 h-screen min-[768px]:my-10 min-[1024px]:my-2 justify-center 
-          items-center "
+          flex flex-col gap-y-8 max-[767px]:min-h-screen max-[768px]:py-10  
+          min-[768px]:my-10 min-[1024px]:my-0 justify-center items-center "
         >
           <Header />
 
