@@ -87,7 +87,7 @@ const Form = () => {
         </div>
 
         <Button
-          text={"Sing in"}
+          text={"Sign in"}
           className="text-white bg-title-color hover:scale-105"
         />
 
@@ -99,14 +99,14 @@ const Form = () => {
           text-sm font-medium flex justify-center items-center gap-x-2 hover:scale-105"
         >
           <img src={iconGoogle} alt="icon google" width={36} height={36} />
-          Sing In with Google
+          Sign In with Google
         </a>
 
         <p className=" text-center text-text-color font-medium">
           Don&rsquo;t have an account?
           <a href="#" className="text-first-color">
             {" "}
-            Sing up
+            Sign up
           </a>
         </p>
       </div>
