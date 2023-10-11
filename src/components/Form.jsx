@@ -87,7 +87,7 @@ const Form = () => {
         </div>
 
         <Button
-          text={"Sing in"}
+          text={"Sign in"}
           className="text-white bg-title-color hover:scale-105"
         />
 
